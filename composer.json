@@ -1,0 +1,17 @@
+{
+    "name": "sxqibo/fastweather",
+    "autoload": {
+        "psr-4": {
+            "sxqibo\\fastweather\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yun",
+            "email": "1427596852@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
