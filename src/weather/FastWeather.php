@@ -56,6 +56,11 @@ final class FastWeather
 
     private $appcode = '';
 
+    public function __construct($config)
+    {
+        $this->appcode = $config['appcode'];
+    }
+
     /**
      * 未来7日中某天的天气预报
      *
