@@ -1,5 +1,5 @@
 {
-    "name": "sxqibo/fastweather",
+    "name": "sxqibo/fast-weather",
     "description": "天气预报",
     "type": "library",
     "autoload": {
