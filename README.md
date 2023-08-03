@@ -7,7 +7,7 @@ https://market.aliyun.com/products/57096001/cmapi010812.html#sku=yuncode48120000
 
 引入
 ```shell
-composer require sxqibo/fastweather
+composer require sxqibo/fast-weather
 ```
 
 实例化
