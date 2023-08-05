@@ -1,6 +1,6 @@
 <?php
 
-use sxqibo\fastweather\weather\FastWeather;
+use Sxqibo\FastWeather\WanweiWeather;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -8,40 +8,40 @@ $config = [
     'appcode' => ''
 ];
 
-$fastWeather = new FastWeather($config);
+$weather = new WanweiWeather($config);
 
-$response = $fastWeather->getAreaToWeatherDate('', '太原', '20230731', 1);
+$response = $weather->getAreaToWeatherDate('', '太原', '20230731', 1);
 var_dump(json_decode($response));
 
-$response = $fastWeather->getAreaToWeather('太原', '' , '1', '1', '1', '1', '1');
+$response = $weather->getAreaToWeather('太原', '' , '1', '1', '1', '1', '1');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getAreaToId('太原');
+$response = $weather->getAreaToId('太原');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getGpsToWeather('5', '116.2278', '40.242266', '0', '0', '0', '0', '0');
+$response = $weather->getGpsToWeather('5', '116.2278', '40.242266', '0', '0', '0', '0', '0');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getDay40('', '太原');
+$response = $weather->getDay40('', '太原');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getDay15('', '太原');
+$response = $weather->getDay15('', '太原');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getHour24('', '太原');
+$response = $weather->getHour24('', '太原');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getIpToWeather('223.5.5.5');
+$response = $weather->getIpToWeather('223.5.5.5');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getWeatherHistory('太原', '', '202307');
+$response = $weather->getWeatherHistory('太原', '', '202307');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getPhonePostCodeWeather('030000', '');
+$response = $weather->getPhonePostCodeWeather('030000', '');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getPhonePostCodeWeather('', '0351');
+$response = $weather->getPhonePostCodeWeather('', '0351');
 var_dump(json_decode($response));
 
-$response = $fastWeather->getSpotToWeather('太原');
+$response = $weather->getSpotToWeather('太原');
 var_dump(json_decode($response));

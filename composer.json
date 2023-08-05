@@ -5,17 +5,21 @@
     "autoload": {
         "files": [],
         "psr-4": {
-            "sxqibo\\fastweather\\": "src/"
+            "Sxqibo\\FastWeather\\": "src/"
         }
     },
     "authors": [
         {
             "name": "yun",
             "email": "1427596852@qq.com"
+        },
+        {
+            "name": "hongwei",
+            "email": "403236160@qq.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.7"
+        "guzzlehttp/guzzle": "~6.0"
     },
     "keywords": [
         "天气预报",

@@ -1,7 +1,7 @@
 # 天气情况
 
 ## 接口地址
-https://market.aliyun.com/products/57096001/cmapi010812.html#sku=yuncode4812000017
+https://market.aliyun.com/products/57096001/cmapi010812.html
 
 ## 使用方法
 

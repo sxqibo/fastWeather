@@ -1,11 +1,11 @@
 <?php
 
-namespace sxqibo\fastweather\weather;
+namespace Sxqibo\FastWeather;
 
 use Exception;
 use GuzzleHttp\Client;
 
-final class FastWeather
+final class WanweiWeather
 {
     const HOST = 'https://ali-weather.showapi.com';
 
